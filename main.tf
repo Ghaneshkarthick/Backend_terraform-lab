@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "state_file_bucket" {
-    bucket = "talent-academy-g-bucket"
+    bucket = "ta-labbucket"
 
     tags = {
-      Name = "talent-academy-g-bucket"
+      Name = "ta-labbucket"
       Environment ="Lab"
     }
 
